@@ -1,0 +1,20 @@
+{
+  "name": "@vinerima/jetstream-types",
+  "version": "1.0.0",
+  "description": "Shared Zod schemas and TypeScript types for Bluesky Jetstream events.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "tsc"
+  },
+  "author": "vinerima <vinerima@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "zod": "^4.3.6"
+  }
+}
